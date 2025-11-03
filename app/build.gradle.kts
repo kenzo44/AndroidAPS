@@ -134,6 +134,14 @@ android {
             manifestPlaceholders["appIcon"] = "@mipmap/ic_blueowl"
             manifestPlaceholders["appIconRound"] = "@mipmap/ic_blueowl"
         }
+        create("m3preview") {
+            applicationId = "info.nightscout.androidaps.m3preview"
+            dimension = "standard"
+            resValue("string", "app_name", "AAPS M3 Preview")
+            versionName = Versions.appVersion + "-m3preview"
+            manifestPlaceholders["appIcon"] = "@mipmap/ic_launcher"
+            manifestPlaceholders["appIconRound"] = "@mipmap/ic_launcher_round"
+        }
     }
 
     useLibrary("org.apache.http.legacy")

@@ -10,7 +10,8 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/appbar_padding_top">
+        android:paddingTop="@dimen/appbar_padding_top"
+        style="@style/Widget.AAPS.Toolbar">
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabLayout"

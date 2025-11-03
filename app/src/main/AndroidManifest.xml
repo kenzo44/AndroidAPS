@@ -55,7 +55,7 @@
         <activity
             android:name="app.aaps.MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.Material3Overlay.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AAPS.Material3" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/aaps_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/aaps_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/aaps_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/aaps_theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/aaps_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/aaps_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/aaps_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/aaps_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/aaps_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/aaps_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/aaps_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/aaps_theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/aaps_theme_dark_error</item>
+        <item name="colorOnError">@color/aaps_theme_dark_onError</item>
+        <item name="colorErrorContainer">@color/aaps_theme_dark_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/aaps_theme_dark_onErrorContainer</item>
+        <item name="colorBackground">@color/aaps_theme_dark_background</item>
+        <item name="colorOnBackground">@color/aaps_theme_dark_onBackground</item>
+        <item name="android:colorBackground">@color/aaps_theme_dark_background</item>
+        <item name="colorSurface">@color/aaps_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/aaps_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/aaps_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/aaps_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/aaps_theme_dark_outline</item>
+        <item name="colorInverseSurface">@color/aaps_theme_dark_inverseSurface</item>
+        <item name="colorInverseOnSurface">@color/aaps_theme_dark_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/aaps_theme_dark_primaryInverse</item>
+        <item name="android:windowBackground">@color/aaps_theme_dark_background</item>
+        <item name="toolbarStyle">@style/Widget.AAPS.Toolbar</item>
+        <item name="materialToolbarStyle">@style/Widget.AAPS.Toolbar</item>
+        <item name="materialAlertDialogTheme">@style/DialogTheme.Material3</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme.Material3</item>
+        <item name="alertDialogTheme">@style/DialogTheme.Material3</item>
+    </style>
+
+    <style name="Theme.AAPS.Material3.NoActionBar" parent="Theme.AAPS.Material3">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeOverlay.AAPS.Material3" parent="ThemeOverlay.Material3">
+        <item name="colorPrimary">@color/aaps_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/aaps_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/aaps_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/aaps_theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/aaps_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/aaps_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/aaps_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/aaps_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/aaps_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/aaps_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/aaps_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/aaps_theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/aaps_theme_dark_error</item>
+        <item name="colorOnError">@color/aaps_theme_dark_onError</item>
+        <item name="colorErrorContainer">@color/aaps_theme_dark_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/aaps_theme_dark_onErrorContainer</item>
+        <item name="colorBackground">@color/aaps_theme_dark_background</item>
+        <item name="colorOnBackground">@color/aaps_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/aaps_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/aaps_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/aaps_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/aaps_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/aaps_theme_dark_outline</item>
+        <item name="colorInverseSurface">@color/aaps_theme_dark_inverseSurface</item>
+        <item name="colorInverseOnSurface">@color/aaps_theme_dark_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/aaps_theme_dark_primaryInverse</item>
+        <item name="toolbarStyle">@style/Widget.AAPS.Toolbar</item>
+        <item name="materialToolbarStyle">@style/Widget.AAPS.Toolbar</item>
+        <item name="materialAlertDialogTheme">@style/DialogTheme.Material3</item>
+        <item name="android:alertDialogTheme">@style/DialogTheme.Material3</item>
+        <item name="alertDialogTheme">@style/DialogTheme.Material3</item>
+    </style>
+
+    <style name="ThemeOverlay.AAPS.Material3.NoActionBar" parent="ThemeOverlay.AAPS.Material3">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.AAPS.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+        <item name="subtitleTextColor">?attr/colorOnPrimary</item>
+        <item name="titleTextAppearance">?attr/textAppearanceTitleLarge</item>
+        <item name="subtitleTextAppearance">?attr/textAppearanceTitleMedium</item>
+        <item name="android:theme">@style/ThemeOverlay.AAPS.Material3.NoActionBar</item>
+    </style>
+
+    <style name="DialogTheme.Material3" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarNegativeButtonStyle">@style/DialogOkCancelButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogOkCancelButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DialogOkCancelButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.Material3Overlay" parent="AppTheme">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.AAPS.Material3</item>
+    </style>
+
+    <style name="AppTheme.Material3Overlay.NoActionBar" parent="AppTheme.NoActionBar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.AAPS.Material3</item>
+    </style>
+
+    <style name="AppTheme.Launcher.Material3" parent="AppTheme.Launcher">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.AAPS.Material3</item>
+    </style>
+
+</resources>
